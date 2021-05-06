@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteRule ^artikel/([^/\.]+)/?$ readmore.php?id=$1&name=$1 [L]
+RewriteRule ^podcast/([^/\.]+)/?$ podcastmore.php?id=$1&name=$1 [L]
+RewriteRule ^pendanaan/([^/\.]+)/?$ konfirmasi.php?id=$1&name=$1 [L]
